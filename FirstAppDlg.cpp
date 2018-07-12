@@ -161,6 +161,7 @@ void CFirstAppDlg::OnBnClickedButton1()
 {
 	// TODO: Add your control notification handler code here
 	file.Open(("C:\\test\\demoFile.txt"),CFile::modeCreate);
+	file.Close();
 	AfxMessageBox("Text File Created!");
 }
 
